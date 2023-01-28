@@ -22,13 +22,19 @@ Step6:Print the predicted output .
 
 
 # Program
+```
 import pandas as pd
-df = pd.read_csv('nba.csv')
-print(df.head(10))
-print(df.tail())
-print("rows",len(df.axes[0]))
-print("columns",len(df.axes[1]))
 
+df = pd.read_csv('nba.csv')
+
+print(df.head(10))
+
+print(df.tail())
+
+print("rows",len(df.axes[0]))
+
+print("columns",len(df.axes[1]))
+```
 
 
 
